@@ -120,8 +120,6 @@
 
                                             <div class="card"
                                                  style="margin-top: 15px; border: none !important; border-radius: 0 !important; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;">
-
-
                                                 <div class="card-header p-4 d-flex justify-content-between"
                                                      style="border: none !important; background: rgb(232 232 232);">
                                                     <h4>{!! $graze->name !!}</h4>

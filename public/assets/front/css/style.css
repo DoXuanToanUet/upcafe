@@ -1465,7 +1465,8 @@ color: #1B1A19;
 .card_end_icon{
 	margin-top: 33px;
 	/*margin-right: 43px;*/
-	margin-bottom: 18px;
+	/* margin-bottom: 18px; */
+	padding-bottom: 18px;
 }
 .card_icons2{
 	margin-left: 21px;

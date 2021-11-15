@@ -19,6 +19,12 @@
                         @if($option == 'dinner')
                         <li class="<?=($option == 'dinner') ? 'active-first' : '' ?> mt-1 main-option"><a href="javascript:void(0);"> &nbsp;<span class="additional">ADDITIONAL OPTIONS</span></a></li>
                         @endif
+                        <li class="<?=($option == 'island') ? 'active-first' : '' ?> mt-3"><a href="{{ url('/catering/island') }}"> &nbsp;<span>ISLAND</span></a></li>
+                        <li class="<?=($option == 'graze') ? 'active-first' : '' ?> mt-3"><a href="{{ url('/catering/graze') }}"> &nbsp;<span>GRAZE</span></a></li>
+                        <li class="<?=($option == 'funeral') ? 'active-first' : '' ?> mt-3"><a href="{{ url('/catering/funeral') }}"> &nbsp;<span>FUNERAL</span></a></li>
+                        <li class="<?=($option == 'high-tea') ? 'active-first' : '' ?> mt-3"><a href="{{ url('/catering/high-tea') }}"> &nbsp;<span>HIGH TEA</span></a></li>
+                        <li class="<?=($option == 'flatters') ? 'active-first' : '' ?> mt-3"><a href="{{ url('/catering/flatters') }}"> &nbsp;<span>FLATTERS</span></a></li>
+                        <li class="<?=($option == 'xmas-themed') ? 'active-first' : '' ?> mt-3"><a href="{{ url('/catering/xmas-themed') }}"> &nbsp;<span>XMAS THEMED</span></a></li>
                         <li class="<?=($option == 'more') ? 'active-first' : '' ?> mt-3"><a href="{{ url('catering/more') }}"> <span>MORE</span></a></li>
                     </ul>
                 </div>

@@ -126,7 +126,7 @@
                                                                 style="font-size: 26px; line-height: 45px;">PLEASE
                                                                 SELECT</h4>
                                                             <div class="card-footer border-0"
-                                                                 style="background: rgba(142, 195, 155, 0.2);">
+                                                                 style="background: #fff">
                                                                 <div class="if-select-buffet">  @foreach($data['setup'] as $s)
 
                                                                         <div class="selection"

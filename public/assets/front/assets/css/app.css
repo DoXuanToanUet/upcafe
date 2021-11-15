@@ -5587,9 +5587,10 @@ input[type=submit].btn-block {
 }
 
 .card-footer {
-    padding: .7692rem 1.538rem;
+    /* padding: .7692rem 1.538rem; */
     background-color: #fff;
-    border-top: 1px solid rgba(0, 0, 0, .125)
+    border-top: 1px solid rgba(0, 0, 0, .125);
+    padding: 0px ;
 }
 
 .card-footer:last-child {
@@ -16398,12 +16399,12 @@ canvas {
     }
     .be-boxed-layout.be-fixed-sidebar .be-content {
         margin-left: 230px;
-        min-height: 100vh
+        min-height: 100vh;
     }
 }
 
 .main-content {
-    padding: 20px
+    padding: 0px 20px;
 }
 
 @media (max-width:991.98px) {

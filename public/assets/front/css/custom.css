@@ -1525,7 +1525,7 @@ input[type=radio]:focus {
 
 @media (min-width: 991px) {
   .full-custom .content {
-    height: 140px;
+    height: 180px;
     overflow: hidden;
   }
 }
@@ -1677,4 +1677,12 @@ input[type=radio]:focus {
 
 .tooltip-div:hover .tooltiptext {
   visibility: visible;
+}
+
+.option3-section .p-2{
+  padding: 30px 30px 0px !important;
+}
+.full-custom .content p{
+  font-size: 18px;
+  font-weight: 500;
 }

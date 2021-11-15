@@ -164,7 +164,10 @@ ul li,ul li a {
   letter-spacing: 1px;
 }
 .food-section .card-header h4{
-  font-weight: bold;
+  /* font-weight: bold; */
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 400;
   
 }
 /* .food-section .full .box-section {

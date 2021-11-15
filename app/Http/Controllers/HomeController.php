@@ -159,6 +159,157 @@ class HomeController extends Controller
         return view('lunch', compact('data', 'currentPage'));
     }
 
+    public function island(){
+        Session::forget('catering');
+        $parent = [
+            1   =>  'island',
+            2   =>  'island-option-1-setup',
+            3   =>  'island-option-2-setup',
+            4   =>  'island-option-1-additional-options',
+            5   =>  'graze',
+            6   =>  'funeral',
+            7   =>  'funeral-option-1-setup',
+            8   =>  'funeral-option-2-setup',
+            9   =>  'funeral-option-3-setup',
+            10  =>  'high-tea',
+            11  =>  'high-tea-additional-options',
+            12  =>  'platters',
+            13  =>  'platters-walk-and-fork',
+            14  =>  'xmas-themed',
+            15  =>  'xmas-themed-finger-food-style-setup',
+            16  =>  'xmas-themed-sweet-platter-additional-options',
+        ];
+        $data = $this->catering->menu('more', $parent);
+        $currentPage = 'catering';
+
+        return view('island', compact('data', 'currentPage'));
+    }
+
+    public function graze(){
+        Session::forget('catering');
+        $parent = [
+            1   =>  'island',
+            2   =>  'island-option-1-setup',
+            3   =>  'island-option-2-setup',
+            4   =>  'island-option-1-additional-options',
+            5   =>  'graze',
+            6   =>  'funeral',
+            7   =>  'funeral-option-1-setup',
+            8   =>  'funeral-option-2-setup',
+            9   =>  'funeral-option-3-setup',
+            10  =>  'high-tea',
+            11  =>  'high-tea-additional-options',
+            12  =>  'platters',
+            13  =>  'platters-walk-and-fork',
+            14  =>  'xmas-themed',
+            15  =>  'xmas-themed-finger-food-style-setup',
+            16  =>  'xmas-themed-sweet-platter-additional-options',
+        ];
+        $data = $this->catering->menu('more', $parent);
+        $currentPage = 'catering';
+
+        return view('graze', compact('data', 'currentPage'));
+    }
+    public function funeral(){
+        Session::forget('catering');
+        $parent = [
+            1   =>  'island',
+            2   =>  'island-option-1-setup',
+            3   =>  'island-option-2-setup',
+            4   =>  'island-option-1-additional-options',
+            5   =>  'graze',
+            6   =>  'funeral',
+            7   =>  'funeral-option-1-setup',
+            8   =>  'funeral-option-2-setup',
+            9   =>  'funeral-option-3-setup',
+            10  =>  'high-tea',
+            11  =>  'high-tea-additional-options',
+            12  =>  'platters',
+            13  =>  'platters-walk-and-fork',
+            14  =>  'xmas-themed',
+            15  =>  'xmas-themed-finger-food-style-setup',
+            16  =>  'xmas-themed-sweet-platter-additional-options',
+        ];
+        $data = $this->catering->menu('more', $parent);
+        $currentPage = 'catering';
+
+        return view('funeral', compact('data', 'currentPage'));
+    }
+    public function highTea(){
+        Session::forget('catering');
+        $parent = [
+            1   =>  'island',
+            2   =>  'island-option-1-setup',
+            3   =>  'island-option-2-setup',
+            4   =>  'island-option-1-additional-options',
+            5   =>  'graze',
+            6   =>  'funeral',
+            7   =>  'funeral-option-1-setup',
+            8   =>  'funeral-option-2-setup',
+            9   =>  'funeral-option-3-setup',
+            10  =>  'high-tea',
+            11  =>  'high-tea-additional-options',
+            12  =>  'platters',
+            13  =>  'platters-walk-and-fork',
+            14  =>  'xmas-themed',
+            15  =>  'xmas-themed-finger-food-style-setup',
+            16  =>  'xmas-themed-sweet-platter-additional-options',
+        ];
+        $data = $this->catering->menu('more', $parent);
+        $currentPage = 'catering';
+
+        return view('high-tea', compact('data', 'currentPage'));
+    }
+    public function flatters(){
+        Session::forget('catering');
+        $parent = [
+            1   =>  'island',
+            2   =>  'island-option-1-setup',
+            3   =>  'island-option-2-setup',
+            4   =>  'island-option-1-additional-options',
+            5   =>  'graze',
+            6   =>  'funeral',
+            7   =>  'funeral-option-1-setup',
+            8   =>  'funeral-option-2-setup',
+            9   =>  'funeral-option-3-setup',
+            10  =>  'high-tea',
+            11  =>  'high-tea-additional-options',
+            12  =>  'platters',
+            13  =>  'platters-walk-and-fork',
+            14  =>  'xmas-themed',
+            15  =>  'xmas-themed-finger-food-style-setup',
+            16  =>  'xmas-themed-sweet-platter-additional-options',
+        ];
+        $data = $this->catering->menu('more', $parent);
+        $currentPage = 'catering';
+
+        return view('flatters', compact('data', 'currentPage'));
+    }
+    public function xmasThemed(){
+        Session::forget('catering');
+        $parent = [
+            1   =>  'island',
+            2   =>  'island-option-1-setup',
+            3   =>  'island-option-2-setup',
+            4   =>  'island-option-1-additional-options',
+            5   =>  'graze',
+            6   =>  'funeral',
+            7   =>  'funeral-option-1-setup',
+            8   =>  'funeral-option-2-setup',
+            9   =>  'funeral-option-3-setup',
+            10  =>  'high-tea',
+            11  =>  'high-tea-additional-options',
+            12  =>  'platters',
+            13  =>  'platters-walk-and-fork',
+            14  =>  'xmas-themed',
+            15  =>  'xmas-themed-finger-food-style-setup',
+            16  =>  'xmas-themed-sweet-platter-additional-options',
+        ];
+        $data = $this->catering->menu('more', $parent);
+        $currentPage = 'catering';
+
+        return view('xmas-themed', compact('data', 'currentPage'));
+    }
     public function dinner(){
         Session::forget('catering');
         $parent = [
