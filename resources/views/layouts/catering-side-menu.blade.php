@@ -25,7 +25,7 @@
                         <li class="<?=($option == 'high-tea') ? 'active-first' : '' ?> mt-3"><a href="{{ url('/catering/high-tea') }}"> &nbsp;<span>HIGH TEA</span></a></li>
                         <li class="<?=($option == 'flatters') ? 'active-first' : '' ?> mt-3"><a href="{{ url('/catering/flatters') }}"> &nbsp;<span>FLATTERS</span></a></li>
                         <li class="<?=($option == 'xmas-themed') ? 'active-first' : '' ?> mt-3"><a href="{{ url('/catering/xmas-themed') }}"> &nbsp;<span>XMAS THEMED</span></a></li>
-                        <li class="<?=($option == 'more') ? 'active-first' : '' ?> mt-3"><a href="{{ url('catering/more') }}"> <span>MORE</span></a></li>
+                        <!-- <li class="<?//= ($option == 'more') ? 'active-first' : '' ?> mt-3"><a href="{{ url('catering/more') }}"> <span>MORE</span></a></li> -->
                     </ul>
                 </div>
             </div>

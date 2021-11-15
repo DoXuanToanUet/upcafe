@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'More')
+@section('title', 'High Tea')
 @section('content')
     <?php
     $option = 'high-tea';

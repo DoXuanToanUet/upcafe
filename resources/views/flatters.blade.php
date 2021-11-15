@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'More')
+@section('title', 'PLATTERS')
 @section('content')
     <?php
     $option = 'more';
@@ -93,7 +93,7 @@
                             </div>
 
                             {{--                        PLATTERS CARD NED--}}
-                            <hr>
+                           
                         </div>
 
                     </div>

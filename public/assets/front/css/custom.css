@@ -1686,3 +1686,9 @@ input[type=radio]:focus {
   font-size: 18px;
   font-weight: 500;
 }
+ .selection{
+  padding: 30px;
+}
+.card-footer{
+  background:#fff !important;
+}

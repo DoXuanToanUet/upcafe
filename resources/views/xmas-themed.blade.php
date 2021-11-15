@@ -15,7 +15,6 @@
                     @csrf
                     <div class="food-section" style="margin-top: 44px;">
                         <div class="container-fluid">
-                       
                             {{--                        XMAS THEMED CARD START--}}
                             <div class="row mt-5 xmas-themed-container">
                                 <div class="col-md-12">
