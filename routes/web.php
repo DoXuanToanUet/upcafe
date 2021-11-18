@@ -55,6 +55,7 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'admin'], function () {
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index']);
 Route::get('/cafe', [App\Http\Controllers\HomeController::class, 'cafe']);
+Route::get('/catering-menu', [App\Http\Controllers\HomeController::class, 'catering']);
 Route::get('/catering', [App\Http\Controllers\HomeController::class, 'catering']);
 Route::post('/catering', [App\Http\Controllers\HomeController::class, 'menu']);
 Route::get('/review', [App\Http\Controllers\HomeController::class, 'review']);

@@ -42,7 +42,7 @@ $notification_header = true; ?>
                                         </div>
                                         <div class="item">
                                             <div class=" wow slideInRight">
-                                                <a href="/catering">
+                                                <a href="/catering-menu">
                                                     <img class="img" src="images/catering-index.png" alt="">
                                                 </a>
                                                 <!-- <div class="content right">
@@ -118,7 +118,7 @@ $notification_header = true; ?>
                                         <img src="images/Catering.svg" alt="cap">
                                         <h3>CATERING</h3>
                                         <p>For a memorable event</p>
-                                        <a href="{{ url('/catering') }}">SEE MORE</a>
+                                        <a href="{{ url('/catering-menu') }}">SEE MORE</a>
                                     </div>
                                 </div> -->
                             </div>
@@ -199,7 +199,7 @@ $notification_header = true; ?>
                             <div class="col-lg-12">
                                 <div class="catering_content text-center">
                                     <h2>{{ $cateringBanner[0]->title }}</h2>
-                                    <a href="{{ url('/catering') }}">VIEW OUR CATERING MENU</a>
+                                    <a href="{{ url('/catering-menu') }}">VIEW OUR CATERING MENU</a>
                                 </div>
                             </div>
                         </div>
@@ -212,7 +212,7 @@ $notification_header = true; ?>
                             <div class="col-lg-12">
                                 <div class="catering_content text-center">
                                     <h2>CREATING SWEET MEMORIES</h2>
-                                    <a href="{{ url('/catering') }}">VIEW OUR CATERING MENU</a>
+                                    <a href="{{ url('/catering-menu') }}">VIEW OUR CATERING MENU</a>
                                 </div>
                             </div>
                         </div>
